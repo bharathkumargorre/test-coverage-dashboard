@@ -22,16 +22,22 @@ A full-stack Python-based **Test Coverage Analytics Dashboard** built using `pyt
 ## 📸 Preview
 ```bash
 streamlit run dashboard/streamlit_app.py
+```
 
 ⚙️ Setup Instructions:
+```bash
   git clone https://github.com/YOUR_USERNAME/test-coverage-dashboard.git
   cd test-coverage-dashboard
+
   python -m venv venv
   venv\Scripts\activate
+
   pip install -r requirements.txt
+
   coverage run -m pytest
   coverage json -o coverage.json
-  streamlit run dashboard/streamlit_app.py
 
+  streamlit run dashboard/streamlit_app.py
+```
 ## 👨‍💻Author:
   G.Bharath Kumar
